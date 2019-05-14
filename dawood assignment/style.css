@@ -1,0 +1,148 @@
+body{
+	    background-image: url(image/yellow_background.png);
+	    background-repeat: repeat-x repeat-y ; 
+    	margin-right: 200px;
+    	margin-left: 200px;
+       }
+	.text h1{ 
+		position: relative;
+		top: 20px;
+		left: 60px;
+    }
+	.img{
+		position: absolute;
+	}
+
+	.nav{
+		position: relative;
+		left: -190px;
+	}
+	.nav ul li {
+	   list-style: none;
+	   display: inline-block;
+	   text-transform: uppercase;
+	   float: right;
+	   margin: 15px;
+	   color: black;
+	}
+	.nav ul li:hover{
+			color: orange;
+		}
+	.image img{
+		min-width: 950px;
+		position: relative;
+		max-height: 2px;
+	}
+     .img3{
+     	position: relative;
+     	width: 100%;
+     	height: 260px;
+     	 background-image: url(image/bg.jpg);
+     	 background-repeat: no-repeat;
+     	 background-size: cover;
+     	 background-position: center;
+     }
+     .inner-img{
+     	position: absolute;
+     	width: 100%;
+     	height: 50px;
+     	bottom: 0;
+     	background-color: rgba(0,0,0,0.9);
+     }
+     .inner-img p{
+     	color: #fff;
+     }
+     .inner-btn{
+     	position: absolute;
+     	height: 30px;
+     	width: 100px;
+     	border: 1px solid red;
+     	top: 0;
+     	right: 0;
+     	right: 11px;
+     	top: 9px;
+     	border-radius: 7px;
+     	background-color: red;
+     }
+     .inner-btn img{
+     	position: absolute;
+    	display: block;
+	    top: 0;
+	    left: 84px;
+	    top: 11px;
+     }
+     .inner-btn p{
+     	left: 12px;
+    	position: absolute;
+    	top: -8px;
+
+     }
+     .img4{
+     	position: relative;
+     	top: 18px;
+		left: 0px;
+     }
+     .para{
+     	width: 650px;
+      }
+     
+     .aside{
+     	    margin-top: 10px;
+     		width: 260px;
+     		float: right;
+     		background-color: #808080;
+     		color: white;
+     }
+	     .my{
+	     	padding-left: 70px;
+	     }
+
+	    .p1{
+	    	padding-left: 20px;
+	    }
+
+	    }
+      .aside p {
+      	
+      	padding-left: 5px;
+
+      }
+      .image5{
+      	text-align: center;
+      	padding-bottom: 5px;      
+      }
+      .arrow{
+      	position: relative;
+      	left: -12px;
+        top: 36px;
+
+      }
+       
+
+       
+      .li  img{
+      	min-width: 947px;
+      	max-height: 3px;
+      	
+      }
+      .top img{
+      	position: relative;
+        left: 415px;
+        top: -5px;
+
+
+      }
+      .center{
+      	       position: absolute;
+    margin-top: -93px;
+    left: 460px;
+      }
+      .lorem{
+      	position: absolute;
+      	margin-top: -93px;
+      	 left: 836px;
+      }
+   
+      
+   
+      
