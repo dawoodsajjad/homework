@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>accordian</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+	<style type="text/css">
+		
+		.accordian{
+
+			background-color: #565656;
+			color: white;
+			width: 100%;
+		    padding: 15px;
+		    text-align: left;
+		    border: 0;
+		    outline: none;
+		    cursor: pointer;
+
+		}
+
+		.active, .accordian:hover{
+
+			background-color: #000;
+
+		}
+
+		.section{
+
+			overflow: hidden;
+		    max-height: 0;
+		    transition: 0.4s;
+
+
+		}
+
+		p{
+
+			width: 300px;
+
+		}
+
+		.body{
+
+			margin: 30px;
+			margin-left: 103px;
+
+		}
+
+		h1{
+
+			text-align: center;
+
+		}
+
+	</style>
+
+</head>
+<body>
+
+	<h1><b><u>ACCORDIAN</u></b></h1>
+
+	<div class="container body">
+ 
+  		<div class="panel-group" id="accordion">
+    
+    		<div class="panel panel-default">
+      
+      			<div class="panel-heading">
+        
+        			<h4 class="panel-title">
+          
+          				<a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Web Development</a>
+        
+        			</h4>
+      
+      			</div>
+      
+      			<div id="collapse1" class="panel-collapse collapse ">
+        
+        			<div class="panel-body">
+
+        				<button class="accordian"><b>HTML</b></button>
+  
+							<div class="container section">
+  		
+  								<div class="row">
+    
+    								<div class="col-sm-6 left">
+      	
+      									<h3><b><u>Defination</u>:-</b></h3>
+			
+										<p>
+
+											Hypertext Markup Language is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets and scripting languages such as JavaScript
+			
+										</p>
+      
+    								</div>
+
+    								<div class="col-sm-6">
+     
+     									<h3><b><u>About</u>:-</b></h3>
+
+										<p class="right">
+				
+											HTML Tutorials. HTML was created by Sir Tim Berners-Lee in late 1991 but was not released officially, which was published in 1995 as HTML 2.0. HTML 4.01 was published in late 1999 and was a major version of HTML. HTML is a very evolving markup language and has evolved with various versions updating.
+
+										</p>
+    
+    								</div>
+    
+  								</div>
+
+							</div>
+
+							<button class="accordian"><b>CSS</b></button>
+  
+							<div class="container section">
+  		
+  								<div class="row">
+    
+    								<div class="col-sm-6 left">
+      	
+      									<h3><b><u>Defination</u>:-</b></h3>
+			
+										<p>
+
+											Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language like HTML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.
+			
+										</p>
+      
+    								</div>
+
+    								<div class="col-sm-6">
+     
+     									<h3><b><u>About</u>:-</b></h3>
+
+										<p class="right">
+				
+											CSS was first proposed by Håkon Wium Lie on October 10, 1994. At the time, Lie was working with Tim Berners-Lee at CERN. Style sheets have existed in one form or another since the beginnings of Standard Generalized Markup Language (SGML) in the 1980s, and CSS was developed to provide style sheets for the web.
+
+										</p>
+    
+    								</div>
+    
+  								</div>
+
+							</div>
+
+							<button class="accordian"><b>JS</b></button>
+  
+							<div class="container section">
+  		
+  								<div class="row">
+    
+    								<div class="col-sm-6 left">
+      	
+      									<h3><b><u>Defination</u>:-</b></h3>
+			
+										<p>
+
+											JavaScript, often abbreviated as JS, is a high-level, interpreted programming language that conforms to the ECMAScript specification. JavaScript has curly-bracket syntax, dynamic typing, prototype-based object-orientation, and first-class functions.
+			
+										</p>
+      
+    								</div>
+
+    								<div class="col-sm-6">
+     
+     									<h3><b><u>About</u>:-</b></h3>
+
+										<p class="right">
+				
+											A brief history of JavaScript. JavaScript was created by Brendan Eich in 1995 during his time at Netscape Communications. It was inspired by Java, Scheme and Self. First, they started a standardization process to prevent Microsoft gaining control of the JavaScript language.
+
+										</p>
+    
+    								</div>
+    
+  								</div>
+
+							</div>
+
+							<button class="accordian"><b>BOOTSTRAP</b></button>
+  
+							<div class="container section">
+  		
+  								<div class="row">
+    
+    								<div class="col-sm-6 left">
+      	
+      									<h3><b><u>Defination</u>:-</b></h3>
+			
+										<p>
+
+											Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development. It contains CSS- and JavaScript-based design templates for typography, forms, buttons, navigation and other interface components.
+			
+										</p>
+      
+    								</div>
+
+    								<div class="col-sm-6">
+     
+     									<h3><b><u>About</u>:-</b></h3>
+
+										<p class="right">
+				
+											Bootstrap is a powerful toolkit - a collection of HTML, CSS, and JavaScript tools for creating and building web pages and web applications. It is a free and open source project, hosted on GitHub, and originally created by (and for) Twitter.
+
+										</p>
+    
+    								</div>
+    
+  								</div>
+
+							</div>
+
+							<button class="accordian"><b>jQuery</b></button>
+  
+							<div class="container section">
+  		
+  								<div class="row">
+    
+    								<div class="col-sm-6 left">
+      	
+      									<h3><b><u>Defination</u>:-</b></h3>
+			
+										<p>
+
+											jQuery is a JavaScript library designed to simplify HTML DOM tree traversal and manipulation, as well as event handling, CSS animation, and Ajax. It is free, open-source software using the permissive MIT License. As of May 2019, jQuery is used by 73% of the 10 million most popular websites. 
+			
+										</p>
+      
+    								</div>
+
+    								<div class="col-sm-6">
+     
+     									<h3><b><u>About</u>:-</b></h3>
+
+										<p class="right">
+				
+											jQuery was originally created in January 2006 at BarCamp NYC by John Resig, influenced by Dean Edwards' earlier cssQuery library. ... jQuery was originally licensed under the CC BY-SA 2.5, and relicensed to the MIT license in 2006. At the end of 2006, it was dual-licensed under GPL and MIT licenses.
+
+										</p>
+    
+    								</div>
+    
+  								</div>
+
+							</div>
+
+							<button class="accordian"><b>PHP</b></button>
+  
+							<div class="container section">
+  		
+  								<div class="row">
+    
+    								<div class="col-sm-6 left">
+      	
+      									<h3><b><u>Defination</u>:-</b></h3>
+			
+										<p>
+
+											PHP: Hypertext Preprocessor is a general-purpose programming language originally designed for web development. It was originally created by Rasmus Lerdorf in 1994; the PHP reference implementation is now produced by The PHP Group.
+			
+										</p>
+      
+    								</div>
+
+    								<div class="col-sm-6">
+     
+     									<h3><b><u>About</u>:-</b></h3>
+
+										<p class="right">
+				
+											The History of PHP. PHP is an "HTML-embedded scripting language" primarily used for dynamic Web applications. PHP was written in the C programming language by Rasmus Lerdorf in 1994 for use in monitoring his online resume and related personal information. For this reason, PHP originally stood for "Personal Home Page".
+
+										</p>
+    
+    								</div>
+    
+  								</div>
+
+							</div>
+
+    				</div>
+
+    			</div>
+
+    		</div>
+
+    	</div>
+
+   
+
+
+
+
+    <script type="text/javascript">
+		
+		var acc = document.getElementsByClassName('accordian');
+		var i;
+
+		for (var i = 0; i < acc.length; i++) {
+			acc[i].addEventListener("click", function () {
+				
+				this.classList.toggle("active");
+
+				var section = this.nextElementSibling;
+
+				if (section.style.maxHeight) {
+
+					section.style.maxHeight = null;
+
+				} 
+
+				else {
+
+					section.style.maxHeight = section.scrollHeight + 'px'
+
+				}
+
+			});
+		}
+
+	</script>
+
+</body>
+</html>
